@@ -4,13 +4,8 @@ var app = express();
 var __dirname;
 
 
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
-
-
-app.get('/home', (req, res) => {
-  res.sendFile(__dirname + '/home.html');
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/index.html');
 })
 
 var server = app.listen(8000, function () {
