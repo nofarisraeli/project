@@ -1,0 +1,26 @@
+html {
+    direction: rtl;
+    max-width: 100%;
+}
+
+.login {
+    background-color:white;
+    max-width: 400px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0px 1px 5px #888888;
+    margin-top: 110px;
+    border-style: solid;
+    border-radius: 38px;
+    border-color: white  ;
+}
+
+.login-logo {
+    width: 10%;
+    height: 10%
+}
+
+.login-title{
+    font-size: -webkit-xxx-large;
+    font-family: cursive
+}

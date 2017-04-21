@@ -1,1 +1,111 @@
-welcome
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+    <base href="/">
+    <meta charset="UTF-8">
+    <head>
+        <title>Login</title>
+        <!-- css include -->
+        <link rel="stylesheet" href="assets/stylesheets/index.css">
+        <!-- Bootstarp include -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-theme.css">        
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+
+<link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css">
+<link rel="stylesheet" href="node_modules/bootstrap-material-design/dist/css/bootstrap-material-design.min.css.map">
+
+    </head>
+    <body style="background-color: white">
+<div class="container login">
+  <form class="form-horizontal">
+    <img class="login-logo col-md-2" src="assets/images/logo-login.png"></img>
+    <div class="col-md-10">
+    <legend class="login-title">LOGIN</legend>
+<div>
+    <div class="form-group">
+      <label class="col-md-1">Email</label>
+
+      <div class="col-md-10">
+        <input type="email" class="form-control" >
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="col-md-1">Password</label>
+
+      <div class="col-md-10">
+        <input type="password" class="form-control">
+                </div>
+      </div>
+          <a href="#" class="btn btn-raised btn-default" style="font-family: cursive;">Go</a>
+    </div>
+    <a href="#" class="col-md-1" data-toggle="modal" data-target="#myModal">sign</a> 
+</form>
+   
+    </div> <!-- /container -->
+
+
+    <!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="<exampleModalLabal></exampleModalLabal>" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="login-title" id="exampleModalLabel">Sign up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+    
+  <form class="form-horizontal">
+<div>
+    <div class="form-group">
+      <label>Email</label>
+
+      <div>
+        <input type="email"  class="form-control" >
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+
+      <div>
+        <input type="password" class="form-control">
+
+      </div>
+    </div>
+</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- jquary include -->
+        <script  type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+
+        <!-- Bootstrap include -->
+        <script  type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/material.min.js"></script>
+        <!--<script type="text/javascript" src="./node_modules/bootstrap-material-design/dist/js/material.min.js.map"></script>-->
+        <script type="text/javascript" src="node_modules/bootstrap-material-design/dist/js/ripples.min.js"></script>
+        <!--<script type="text/javascript" src="./node_modules/bootstrap-material-design/dist/js/ripples.min.js.map"></script>-->
+
+        <!-- Func -->     
+        <script type="text/javascript">
+          $(document).ready(function() { 
+              $.material.init();
+          });
+      </script>
+    </body>
+</html>
+
+
