@@ -1,5 +1,4 @@
 html {
-    direction: rtl;
     max-width: 100%;
 }
 
@@ -17,10 +16,12 @@ html {
 
 .login-logo {
     width: 10%;
-    height: 10%
+    height: 10%;
 }
 
 .login-title{
     font-size: -webkit-xxx-large;
-    font-family: cursive
+    font-family: cursive;
+    font-size: 35px;
+    text-align: center;
 }
